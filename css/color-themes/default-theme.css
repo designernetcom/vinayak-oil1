@@ -293,7 +293,7 @@ a,
 	border-color:#000;
 }
 
-.main-menu .navigation > li > ul,
+/* .main-menu .navigation > li > ul, */
 
 .list-style-two li .icon,
 
@@ -415,7 +415,7 @@ a,
 
 .list-style-one li .icon{
 	color: #f6a608;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .subscribe-section .title-column:after{

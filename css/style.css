@@ -928,7 +928,7 @@ img{
 
 	position:relative;
 
-	margin-bottom:30px;
+	margin-bottom:33px;
 
 }
 
@@ -2054,7 +2054,7 @@ img{
 
 	padding:17px 0px;
 
-	font-size:14px;
+	font-size:15px;
 
 	transition:all 500ms ease;
 
@@ -2220,7 +2220,7 @@ img{
 
 	top:100%;
 
-	width:250px;
+	width:300px;
 
 	padding:0px;
 
@@ -2228,7 +2228,7 @@ img{
 
 	display:none;
 
-	background:transparent;
+	background:#1a1a1adb;
 
 	border-top:3px solid #000000;
 
@@ -2298,9 +2298,9 @@ img{
 
 	font-weight:600;
 
-	font-size:14px;
+	font-size:16px;
 
-	text-transform:capitalize;
+	text-transform:uppercase;
 
 	color:#fff;
 	border-bottom: 1px solid rgb(175 175 175 / 36%);
@@ -2379,11 +2379,11 @@ img{
 
 	position:absolute;
 
-	right:125%;
+	right:100%;
 
 	top:0px;
 
-	width:350px !important;
+	width:480px !important;
 
 	padding:0px;
 
@@ -2391,7 +2391,7 @@ img{
 
 	display:none;
 
-	background:transparent;
+	background:#1a1a1adb;
 
 	/* border-top:3px solid #ffb200; */
 
@@ -7509,7 +7509,7 @@ img{
 
 	position:relative;
 
-	padding: 40px 0px 40px;
+	padding: 10px 0px 40px;
 
 }
 
@@ -7520,7 +7520,7 @@ img{
 	position:relative;
 
 	margin-bottom:0px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	padding: 0px 20px;
 
 }
@@ -7586,16 +7586,16 @@ img{
 
 
 .services-block-three .inner-box h3{
-
+	border-top: 1px solid #525151;
 	position: relative;
     color: #333333;
     font-size: 15px;
     font-weight: 600;
     line-height: 1.4em;
-    margin-bottom: 6px;
+    padding-bottom: 8px;
     padding-top: 7px;
     font-family: 'Arimo', sans-serif;
-
+	background: #f7a708;
 }
 
 
@@ -8650,7 +8650,7 @@ img{
 
 	text-align:center;
 
-	padding:100px 0px 100px;
+	padding:50px 0px 30px;
 
 	background-repeat:no-repeat;
 
@@ -9230,7 +9230,7 @@ img{
 
 	position:relative;
 
-	padding:80px 0px 0px;
+	padding:30px 0px 0px;
 
 }
 
@@ -9273,7 +9273,7 @@ img{
 .blog-cat li{
 
 	position:relative;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border: 1px solid #b8b8b8;
 
 }
@@ -9338,11 +9338,11 @@ img{
 
 	color:#333333;
 
-	font-size:16px;
+	font-size:15px;
+	text-transform: uppercase;
+	font-weight:600;
 
-	font-weight:500;
-
-	padding:18px 15px 18px 50px;
+	padding:11px 15px 11px 50px;
 
 	display:block;
 
@@ -9372,7 +9372,7 @@ img{
 
 	left:28px;
 
-	top:22px;
+	top:12px;
 
 	color:#aaaaaa;
 
@@ -9623,6 +9623,7 @@ img{
 
 	display:block;
 	border: 1px solid #afafaf;
+	margin-bottom: 45px;
 
 }
 
@@ -9660,7 +9661,7 @@ img{
 
 	position:relative;
 
-	padding-top:28px;
+	padding-top:0px;
 
 }
 
@@ -9672,9 +9673,8 @@ img{
 
 	color:#333333;
 
-	font-size:30px;
-
-	font-weight:500;
+	font-size: 33px;
+    font-weight: 600;
 
 	line-height:1.4em;
 
@@ -9712,15 +9712,11 @@ img{
 
 	position:relative;
 
-	color:#333333;
-
-	font-size:30px;
-
-	font-weight:500;
-
-	margin-top:0px;
-
-	margin-bottom:5px;
+	color: #333333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
 
 }
 
@@ -10364,7 +10360,7 @@ img{
 
 	position:relative;
 
-	padding:60px 0px 70px;
+	padding:60px 0px 0px;
 
 }
 
@@ -11907,7 +11903,7 @@ img{
 
 	position:relative;
 
-	padding:70px 0px 40px;
+	padding:70px 0px 100px;
 
 }
 
@@ -19189,7 +19185,7 @@ img{
 }
 
 .linkedin {
-	background: #0077B5;
+	background: #0077b5;
 	padding: 4px 10px;
 	border-radius: 5px;
 }
@@ -19220,7 +19216,7 @@ img{
     padding: .75rem .75rem .75rem;
 }
 .drop-mega .ul-mclass{
-	width: 351px !important;
+	/* width: 351px !important; */
 }
 .main-menu .navigation .mega-menu > ul > li {
     position: relative;
@@ -19230,11 +19226,11 @@ img{
 .main-menu .navigation .mega-menu > ul > li> a {
     position: relative;
     display: block;
-    padding: 11px 5px;
+    padding: 11px 18px;
     line-height: 20px;
     font-weight: 400;
-    font-size: 14px;
-    text-transform: capitalize;
+    font-size: 15px;
+    text-transform:uppercase;
     color: #fff;
 	border-bottom: 1px solid rgb(175 175 175 / 36%);
     transition: all 500ms ease;
@@ -19483,7 +19479,7 @@ color: #1c1c1c;
 font-size: 32px;
 font-weight: 700;
 line-height: 1.4em;
-padding-bottom: 20px;
+padding-bottom: 12px;
 text-transform: uppercase;
 }
 .clients-section .title-column h2 {
@@ -19873,11 +19869,11 @@ font-family: 'Montserrat', sans-serif;
 	display: flex;
 }
 .inner-boxs .icon-box img{
-	width: 80px;
-	padding-top: 10px;
+	width: 75px;
+	padding: 18px 6px;
 }
 .inner-boxs .bot-text{
-	padding-left: 20px;
+	margin-left: -15px;
 }
 .inner-boxs .bot-text h3 a{
 	color: #000;
@@ -19901,6 +19897,7 @@ font-family: 'Montserrat', sans-serif;
 .subbb-pro .lower-content h3 a{
 	font-weight: 600;
 	color: #000 !important;
+	font-size: 28px;
 	
     
 }
@@ -19941,3 +19938,69 @@ font-family: 'Montserrat', sans-serif;
   .carousel-control-next, .carousel-control-prev {
 background: none;
   }
+  .main-menu .navigation > li > ul > li:last-child{
+	border-bottom: none;
+  }
+  .main-menu .navigation .mega-menu > ul > li:last-child{
+	border-bottom: none;
+  }
+  
+  .main-menu .navigation .mega-menu ul > li:hover > a {
+    color: #ffb200;
+	font-weight: 600;
+}
+.gallery-section .inner-box{
+	border: 1px solid #525151;
+}
+.gallery-section .inner-box h3 a:hover{
+	color: #000 !important;
+}
+.services-block-three .only-icon img{
+	width: 80px;
+    padding: 15px 10px 10px;
+}
+.only-i .inner-box h3 {
+    position: relative;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: 18px;
+    padding-top: 7px;
+    font-family: 'Arimo', sans-serif;
+    background:none;
+	border-top: none;
+}
+.sidebar-page-containers{
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+.mtop{
+	margin-top: 20px;
+}
+.benefits-section{
+	padding: 0px 0px 90px 0px;
+}
+.inner-boxs .icon-box{
+	background: #f6a608;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+	text-align: center;
+}
+.sticky-header .main-menu .navigation > li > ul {
+    position: absolute;
+    left: -80px;
+
+}
+.main-sliders h2, p span{
+	font-family: 'Montserrat', Italic;
+}
+.main-slider h2 .main-bans{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
+.drop-mega .w-ind > ul{
+	width:340px ;
+}

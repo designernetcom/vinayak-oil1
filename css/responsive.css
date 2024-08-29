@@ -209,11 +209,50 @@
 		display: block;
 	}
 	.main-sliders img{
-		height: 460px;
+		height: 650px;
 	}
 	.main-sliders h2{
 		font-size: 31px;
-    	font-weight: 500;
+    	font-weight: 700;
+	}
+	.services-single .inner-box .image img {
+		position: relative;
+		width: 100%;
+		display: block;
+		border: 1px solid #afafaf;
+		margin-bottom: 30px;
+	}
+	.subbb-pro .lower-content h3 a {
+		font-weight: 600;
+		color: #000 !important;
+		font-size: 23px;
+	}
+	.benefits-section .rrow{
+		justify-content: center;
+	}
+	.inner-boxs .icon-box {
+		margin: 0px auto;
+	}
+	.inner-boxs .bot-text {
+		margin-left: -15px;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.benefits-section {
+		padding: 0px 0px 30px 0px;
+	}
+	.sidebar-page-containers {
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+	.table {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 3rem;
+	}
+	.main-sliders h2 span{
+		font-family: 'Montserrat', sans-serif;
+		font-style: italic;
 	}
 	
 }
@@ -2075,7 +2114,7 @@
 
 	.page-title{
 
-		padding:55px 0px;	
+		padding:30px 0px 0px;	
 
 	}
 
@@ -2337,7 +2376,7 @@
 		flex-direction: column-reverse;
 	}
 	.sidebar-page-container {
-		padding: 30px 0px 0px;
+		padding: 15px 0px 0px;
 	}
 	.services-single .inner-box .lower-content {
 		position: relative;
