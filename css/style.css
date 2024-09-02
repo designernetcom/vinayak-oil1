@@ -19526,7 +19526,7 @@ color: #f6a608;
 }
 .main-footer .widgets-section {
 position: relative;
-padding: 82px 0px 40px;
+padding: 95px 0px 40px;
 border-bottom: 1px solid #525252;
 }
 .fact-counter .count-outer .count-text {
@@ -19762,7 +19762,10 @@ font-family: 'Montserrat', sans-serif;
 }
 .text h6{
 	color: #000;
-	font-weight: 600;
+    font-weight: 500;
+    font-size: 19px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 .product-title h2{
 	text-align: center;
@@ -19838,9 +19841,10 @@ font-family: 'Montserrat', sans-serif;
 	color: #3c3c3c;
  }
  .lower-content h5{
-	font-size: 21px;
-	color: #000;
-	font-weight: 500;
+	font-size: 22px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 2px;
  }
  .single-title h1 {
     position: relative;
@@ -20001,6 +20005,10 @@ background: none;
 	font-style: italic;
 	font-weight: 700;
 }
-.drop-mega .w-ind > ul{
-	width:340px ;
+.drop-mega .w-ind {
+	width:440px !important;
+}
+.bot-text .text{
+	color: #000;
+	font-size: 15px;
 }
