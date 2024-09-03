@@ -215,6 +215,24 @@
 		font-size: 31px;
     	font-weight: 700;
 	}
+	.page-title-single {
+		position: relative;
+		text-align: center;
+		padding: 70px 0px 70px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+	}
+	.page-title-single h1 {
+		position: relative;
+		color: #ffffff;
+		font-size: 30px;
+	}
+	.teacher-single {
+		position: relative;
+		padding: 60px 0px 20px;
+	}
+	
 	.services-single .inner-box .image img {
 		position: relative;
 		width: 100%;
@@ -2349,6 +2367,7 @@
 	.mobview{
 		/* display: none; */
 	}
+	
 }
 @media only screen and (max-width: 599px){
 	.main-slider .carousel-item img{
@@ -2376,7 +2395,7 @@
 		flex-direction: column-reverse;
 	}
 	.sidebar-page-container {
-		padding: 15px 0px 0px;
+		padding: 15px 0px 40px;
 	}
 	.services-single .inner-box .lower-content {
 		position: relative;
