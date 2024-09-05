@@ -8093,7 +8093,7 @@ img{
 
 	position:relative;
 
-	margin-bottom:40px;
+	margin-bottom:0px;
 
 }
 
@@ -19949,8 +19949,8 @@ tr td a:hover{
  }
  .lower-content h5{
 	font-size: 22px;
-    color: #333333;
-    font-weight: 600;
+    color: #000000;
+    font-weight: 500;
     margin-bottom: 2px;
  }
  .single-title h1 {
@@ -19986,18 +19986,26 @@ tr td a:hover{
 .inner-boxs .bot-text{
 	margin-left: -15px;
 }
+.inner-boxs .bot-text h3{
+	line-height: 26px;
+    margin-bottom: 10px;
+}
 .inner-boxs .bot-text h3 a{
 	color: #000;
 	font-size: 22px;
 	font-weight: 600;
+	
 }
 
 .subbb-pro .inner-box{
 	display: flex;
 }
-.subbb-pro{
-	padding-bottom: 40px;
+.b-btm{
 	border-bottom: 1px solid #bbbbbb;
+}
+.subbb-pro{
+	padding: 35px 20px;
+	
 }
 .subbb-pro:last-child{
 	border-bottom: none;
@@ -20015,13 +20023,16 @@ tr td a:hover{
 .subbb-pro .lower-content h3{
 	font-size: 29px;
 	line-height: 35px;
+	color: #000;
+    font-weight: 500;
 }
-.subbb-pro .lower-content h6 a{
+.subbb-pro .lower-content h6{
 	font-weight: 600;
-	color: #000 !important;
+	color: #000 ;
 }
 .subbb-pro .lower-content p{
 	margin-bottom: 5px;
+	color: #3a3a3a;
 }
 /* .dropdown-menu {
 	display: none;
@@ -20090,7 +20101,7 @@ background: none;
 	margin-top: 20px;
 }
 .benefits-section{
-	padding: 0px 0px 90px 0px;
+	padding: 30px 0px 90px 0px;
 }
 .inner-boxs .icon-box{
 	background: #f6a608;
@@ -20194,10 +20205,10 @@ padding: 25px 40px;
 	background-color: #f7a708;
 }
 .req-pds{
-	border-radius: 0 !important;
+	/* border-radius: 0 !important;
 	border: 1px solid #000;
 	background: #000000 !important;
-    color: #fff !important;
+    color: #fff !important; */
 }
 .app-div ul li{
 	list-style-type: disc;
@@ -20224,4 +20235,13 @@ padding: 25px 40px;
 	background: #f6a608;
     color: #000;
     padding: 5px 20px;
+}
+.modal-body {
+    padding: 2rem;
+}
+.subbb-pro:hover{
+	background-color: #f6a608
+}
+.subbb-pro:hover p, .subbb-pro:hover h5{
+	color: #000;
 }
